@@ -1,0 +1,225 @@
+/* General*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+
+/*titulo dbz*/
+#dragonballz{
+    width: 200px;
+    height: 60px;
+}
+
+/*logo y hover*/
+#logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+    padding: 5px;
+    cursor: pointer;
+    filter: grayscale(1);
+}
+
+#logo:hover{
+    filter: brightness(1);
+    transition: 300ms;
+    }
+
+
+/*redes*/
+#ig{
+    color: #e457f7;
+}
+#yt{
+    color: #ff2f2f;
+}
+#tw{
+    color: #161616;
+}
+
+
+
+/*body primera pagina*/
+.body1{
+    min-height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/b5/5b/0a/b55b0a86983d46d4dde3a5e1dd4f2a62.png);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+/*footer*/
+.soyelfooter{
+    width: 100%;
+    margin-top: auto;
+    background-color: #242424;
+    border: double #ff8800;
+}
+/*tamaño fuente redes*/
+.peque{
+    font-size: medium;
+}
+
+
+/*formulario*/
+.contac{
+    background-color: #e4e4e4;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    display: grid;
+    place-items: center;
+    box-shadow: 2px 2px 4px #000;
+
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    
+}
+
+
+/*primer container index inicio*/
+#container1{
+    background-image: url(https://assets2.ignimgs.com/2016/03/11/dbz1280jpg-0d875e_160w.jpg?width=1280);
+    background-size: 1400px 1350px;
+    background-repeat: no-repeat;
+
+    border-radius: 30px;
+    border: double #ff8800;
+
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: left;
+}
+
+/*container de transformaciones*/
+#container2{
+
+    background-color: #242424;
+    border-radius: 30px;
+    border: double #ff8800;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: left;
+}
+
+/*fuente a mejorar*/
+
+.titulos{
+
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Phudu', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#iconos{
+    color: #ff0000;
+}
+
+
+
+/* grid de las transformacions*/
+#transformations{
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+/* imagenes*/
+.img{
+    width: 500px;
+    height: 550px;
+    margin: 4px;
+}
+
+/*animacion del hover en las transformaciones*/
+.soydivimg{
+    border: 3px solid #000;
+    width: 500px;
+    height: 550px;
+    margin: 4px;
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.soydivimg:hover{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ded4c09d-6f31-4249-b9c5-5918e01082f3/df7x0n1-12b200af-d15b-44dd-816a-5c7576b8cde6.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RlZDRjMDlkLTZmMzEtNDI0OS1iOWM1LTU5MThlMDEwODJmM1wvZGY3eDBuMS0xMmIyMDBhZi1kMTViLTQ0ZGQtODE2YS01Yzc1NzZiOGNkZTYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ijiVpZGlZk-LfZwg4SoH9Sp87VefBf5UeMfuayiA9DU);
+    background-position: center;
+    background-size: auto;
+    align-items: center;
+    transform: translatey(-4px);
+    border: 3px solid #fad222;
+    box-shadow: -3px 3px #000000;
+    transition: all 300ms;
+}
+
+.soydivgohan{
+    border: 3px solid #000;
+    width: 500px;
+    height: 550px;
+    margin: 4px;
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+
+.soydivgohan:hover{
+    background-image: url(https://img1.picmix.com/output/stamp/normal/8/7/2/4/2034278_c1f3a.gif);
+
+    background-position: center;
+    background-size: auto;
+    align-items: center;
+    transform: translatey(-4px);
+    border: 3px solid #ffffff;
+    box-shadow: -3px 3px #000000;
+    transition: all 300ms;
+}
+
+
+
+/*background 2do del main*/
+.mainbackground1{
+    background-color: rgb(24, 24, 24);
+}
+
+
+/*namek de fondo*/
+.pj{
+    
+    background-image: url(https://i.pinimg.com/originals/b5/5b/0a/b55b0a86983d46d4dde3a5e1dd4f2a62.png);
+    background-size: 100;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+
+
+}
+
+/*limite tamaño pj*/
+.imagen-limitada {
+    max-width: 100%;
+    max-height: 900px; 
+  }
+
+
+/*responsiveness para el iframe*/
+.iframer {
+    width: 100%;
+}
+
